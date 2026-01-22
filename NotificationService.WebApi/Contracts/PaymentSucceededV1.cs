@@ -1,9 +1,8 @@
 namespace NotificationService.WebApi.Contracts;
 
 public sealed record PaymentSucceededV1(
-    Guid PaymentId,
-    Guid OrderId,
-    decimal Amount,
-    string Currency,
+    long PaymentId,
+    long OrderId,
+    decimal Price,
     DateTimeOffset OccurredAtUtc
 );

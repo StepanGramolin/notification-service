@@ -9,6 +9,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSignalR();
 builder.Services.AddHostedService<PaymentEventsConsumer>();
+builder.Services.AddHostedService<OrderEventsConsumer>();
 
 var app = builder.Build();
 
