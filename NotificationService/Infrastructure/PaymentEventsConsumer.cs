@@ -1,21 +1,21 @@
-﻿using System.Text;
+using System.Text;
 using System.Text.Json;
 using Confluent.Kafka;
 using Microsoft.AspNetCore.SignalR;
-using NotificationService.WebApi.Contracts;
-using NotificationService.WebApi.Hubs;
+using NotificationService.Contracts;
+using NotificationService.Hubs;
 
-namespace NotificationService.WebApi.Infrastructure;
+namespace NotificationService.Infrastructure;
 
-public sealed class OrderEventsConsumer : BackgroundService
+public sealed class PaymentEventsConsumer : BackgroundService
 {
     private readonly IConfiguration _configuration;
-    private readonly ILogger<OrderEventsConsumer> _logger;
+    private readonly ILogger<PaymentEventsConsumer> _logger;
     private readonly IHubContext<NotificationsHub> _hub;
 
-    public OrderEventsConsumer(
+    public PaymentEventsConsumer(
         IConfiguration configuration,
-        ILogger<OrderEventsConsumer> logger,
+        ILogger<PaymentEventsConsumer> logger,
         IHubContext<NotificationsHub> hub)
     {
         _configuration = configuration;
@@ -28,8 +28,8 @@ public sealed class OrderEventsConsumer : BackgroundService
         var bootstrap = _configuration["Kafka:BootstrapServers"]
                         ?? throw new InvalidOperationException("Kafka:BootstrapServers is required");
 
-        var topic = _configuration["Kafka:NotificationsTopic"] ?? "order-events";
-        var groupId = _configuration["Kafka:GroupId"] ?? "notification-order-group";
+        var topic = _configuration["Kafka:NotificationsTopic"] ?? "payment-events";
+        var groupId = _configuration["Kafka:GroupId"] ?? "notification-payment-group";
 
         var config = new ConsumerConfig
         {
@@ -70,21 +70,21 @@ public sealed class OrderEventsConsumer : BackgroundService
                 var correlationId = ReadHeader(cr.Message.Headers, "correlationId");
                 var eventType = ReadHeader(cr.Message.Headers, "eventType");
 
-                if (!string.Equals(eventType, "OrderCreatedV1", StringComparison.Ordinal))
+                if (!string.Equals(eventType, "PaymentSucceededV1", StringComparison.Ordinal))
                 {
                     _logger.LogWarning("Unknown eventType={EventType}. Skipping.", eventType);
                     consumer.Commit(cr);
                     continue;
                 }
 
-                OrderCreatedV1? evt;
+                PaymentSucceededV1? evt;
                 try
                 {
-                    evt = JsonSerializer.Deserialize<OrderCreatedV1>(cr.Message.Value);
+                    evt = JsonSerializer.Deserialize<PaymentSucceededV1>(cr.Message.Value);
                 }
                 catch (Exception ex)
                 {
-                    _logger.LogError(ex, "Failed to deserialize OrderCreatedV1. value={Value}", cr.Message.Value);
+                    _logger.LogError(ex, "Failed to deserialize PaymentSucceededV1. value={Value}", cr.Message.Value);
                     consumer.Commit(cr);
                     continue;
                 }
@@ -105,8 +105,8 @@ public sealed class OrderEventsConsumer : BackgroundService
                 await _hub.Clients.All.SendAsync("notification", JsonSerializer.Serialize(notificationPayload), stoppingToken);
 
                 _logger.LogInformation(
-                    "Forwarded event to SignalR. correlationId={CorrelationId} orderId={OrderId}",
-                    correlationId, evt.ProductId);
+                    "Forwarded event to SignalR. correlationId={CorrelationId} orderId={OrderId} partition={Partition} offset={Offset}",
+                    correlationId, evt.OrderId, cr.Partition.Value, cr.Offset.Value);
 
                 consumer.Commit(cr);
             }

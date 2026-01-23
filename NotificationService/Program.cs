@@ -1,5 +1,5 @@
-using NotificationService.WebApi.Hubs;
-using NotificationService.WebApi.Infrastructure;
+using NotificationService.Hubs;
+using NotificationService.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -7,8 +7,44 @@
       "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\hubs\\notificationshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\hubs\\notificationshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\infrastructure\\paymenteventsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\infrastructure\\paymenteventsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\infrastructure\\ordereventsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\infrastructure\\ordereventsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\hubs\\notificationshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.csproj|solutionrelative:notificationservice.webapi\\hubs\\notificationshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\contracts\\paymentsucceededv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\contracts\\paymentsucceededv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\contracts\\ordercreatedv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\contracts\\ordercreatedv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\contracts\\broadcastnotificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.csproj|solutionrelative:notificationservice.webapi\\contracts\\broadcastnotificationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.csproj|solutionrelative:notificationservice.webapi\\notificationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\notificationservice.webapi.http||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\notificationservice.webapi.http||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice.webapi\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1651B6B7-EAF8-E8E5-AEC8-CB6252BD3FE7}|NotificationService.WebApi\\NotificationService.WebApi.csproj|solutionrelative:notificationservice.webapi\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +54,99 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationsHub.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T05:09:56.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BroadcastNotificationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Contracts\\BroadcastNotificationRequest.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Contracts\\BroadcastNotificationRequest.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Contracts\\BroadcastNotificationRequest.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Contracts\\BroadcastNotificationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T05:09:15.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderCreatedV1.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Contracts\\OrderCreatedV1.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Contracts\\OrderCreatedV1.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Contracts\\OrderCreatedV1.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Contracts\\OrderCreatedV1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T05:56:25.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentSucceededV1.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Contracts\\PaymentSucceededV1.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Contracts\\PaymentSucceededV1.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Contracts\\PaymentSucceededV1.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Contracts\\PaymentSucceededV1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T08:39:44.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T06:32:16.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderEventsConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Infrastructure\\OrderEventsConsumer.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Infrastructure\\OrderEventsConsumer.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Infrastructure\\OrderEventsConsumer.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Infrastructure\\OrderEventsConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T07:07:36.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentEventsConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Infrastructure\\PaymentEventsConsumer.cs",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\Infrastructure\\PaymentEventsConsumer.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Infrastructure\\PaymentEventsConsumer.cs",
+              "RelativeToolTip": "NotificationService.WebApi\\Infrastructure\\PaymentEventsConsumer.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAowAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T06:32:57.601Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,22 +155,48 @@
               "RelativeDocumentMoniker": "NotificationService.WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Program.cs",
               "RelativeToolTip": "NotificationService.WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T07:21:37.547Z",
+              "WhenOpened": "2026-01-20T08:48:34.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NotificationsHub.cs",
-              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
-              "RelativeDocumentMoniker": "NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
-              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
-              "RelativeToolTip": "NotificationService.WebApi\\Hubs\\NotificationsHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T07:21:10.429Z",
+              "DocumentIndex": 8,
+              "Title": "NotificationService.csproj",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\NotificationService.csproj",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\NotificationService.csproj",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\NotificationService.csproj",
+              "RelativeToolTip": "NotificationService.WebApi\\NotificationService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-23T05:08:44.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationService.WebApi.http",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\NotificationService.WebApi.http",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\NotificationService.WebApi.http",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\NotificationService.WebApi.http",
+              "RelativeToolTip": "NotificationService.WebApi\\NotificationService.WebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-23T05:08:30.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "NotificationService.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService.WebApi\\appsettings.json",
+              "RelativeToolTip": "NotificationService.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-22T08:24:56.166Z",
               "EditorCaption": ""
             }
           ]

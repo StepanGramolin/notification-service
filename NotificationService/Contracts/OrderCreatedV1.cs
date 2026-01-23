@@ -1,4 +1,4 @@
-﻿namespace NotificationService.WebApi.Contracts;
+﻿namespace NotificationService.Contracts;
 
 public sealed record OrderCreatedV1(
     long ProductId,

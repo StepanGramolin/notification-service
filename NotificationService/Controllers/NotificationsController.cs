@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using NotificationService.WebApi.Contracts;
-using NotificationService.WebApi.Hubs;
+using NotificationService.Contracts;
+using NotificationService.Hubs;
 
-namespace NotificationService.WebApi.Controllers;
+namespace NotificationService.Controllers;
 
 [ApiController]
 [Route("api/notifications")]
