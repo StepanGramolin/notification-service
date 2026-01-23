@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice\\contracts\\ordercreatedv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\contracts\\ordercreatedv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice\\contracts\\paymentsucceededv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\contracts\\paymentsucceededv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice\\infrastructure\\paymenteventsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\infrastructure\\paymenteventsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|c:\\users\\gramolin.si\\desktop\\workspaces\\microservices-workspace\\notification-service\\notificationservice\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9FD0F0-B9C2-54C6-189B-77AA3D46F4C2}|NotificationService\\NotificationService.csproj|solutionrelative:notificationservice\\controllers\\notificationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderCreatedV1.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Contracts\\OrderCreatedV1.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Contracts\\OrderCreatedV1.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Contracts\\OrderCreatedV1.cs",
+              "RelativeToolTip": "NotificationService\\Contracts\\OrderCreatedV1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T07:00:49.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentEventsConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Infrastructure\\PaymentEventsConsumer.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Infrastructure\\PaymentEventsConsumer.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Infrastructure\\PaymentEventsConsumer.cs",
+              "RelativeToolTip": "NotificationService\\Infrastructure\\PaymentEventsConsumer.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T06:58:11.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationsController.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Controllers\\NotificationsController.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Controllers\\NotificationsController.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Controllers\\NotificationsController.cs",
+              "RelativeToolTip": "NotificationService\\Controllers\\NotificationsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T06:58:03.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentSucceededV1.cs",
+              "DocumentMoniker": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Contracts\\PaymentSucceededV1.cs",
+              "RelativeDocumentMoniker": "NotificationService\\Contracts\\PaymentSucceededV1.cs",
+              "ToolTip": "C:\\Users\\gramolin.si\\Desktop\\workspaces\\microservices-workspace\\notification-service\\NotificationService\\Contracts\\PaymentSucceededV1.cs",
+              "RelativeToolTip": "NotificationService\\Contracts\\PaymentSucceededV1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T06:56:56.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
